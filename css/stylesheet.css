@@ -1,0 +1,154 @@
+/*header section*/
+.header{	
+    height: 100px;
+    line-height: 7;
+    padding-left: 50px;    
+}
+
+.header .col-md-2{
+    cursor: pointer;
+}
+
+.header .topnav{	
+	overflow: hidden;
+	height: 100px;	
+}
+
+.header .topnav a{
+	height: 100px;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none ;
+    line-height: 5;
+    font-size: 14px;
+}
+
+.header .topnav a:HOVER {
+    background-color: #ddd;
+    color: black;
+}
+
+.header .topnav a .active {
+    background-color: #ddd;
+    color: white;
+}   
+
+.header .col-md-3 {
+    text-align: right;
+    padding-right: 50px;
+    cursor: pointer;   
+}
+
+.header .col-md-3 i:HOVER{    
+    color: #2ECC71;
+}
+
+.header .fa[data-count]:after{
+    position:absolute;
+    right:15%;
+    top:15%;
+    content: attr(data-count);
+    font-size:40%;
+    padding: 0.15em;
+    border-radius:50%;
+    line-height:1.5em;
+    color: white;
+    background:rgba(255,0,0,.85);
+    text-align:center;
+    min-width: 1em;
+    height: 20px;
+    width: 20px;
+    font-weight:bold;
+}
+/*header section*/
+
+/*banner section*/
+
+.banner{
+	background-color: yellow;
+    height: 270px;
+}
+
+/*banner section*/
+
+/*content section*/
+.content{
+    margin-top: 76px;
+    height: 1700px;   
+    width: auto;
+}
+
+.content .col-md-3{
+    background-color: white;
+    height: 1700px; 
+    margin-left: 6%;
+    margin-right: 2%;
+    width: 23%;
+   
+}
+.content .col-md-3 .search{
+    background-color: white;  
+    height: 50px;  
+}
+
+.content .categories{
+    background-color: pink;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.content .price{
+    background-color: red;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.content .color{
+    background-color: #9999FF;
+    height: 300px; 
+    margin-top: 30px;   
+}
+
+.content .operating-sys{
+    background-color: #FF9900;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.content .re-product{
+    background-color: #0000EE;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.content .search #searchInput{
+    border: 1px solid #edecea;
+    line-height: 10px;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.content .col-md-9{
+    background-color: green;   
+    height: 1700px;
+    width: 63% ;
+    margin-right: 6%;     
+}
+
+/*End content section*/
+
+
+/*footer section*/
+
+.footer{
+	background-color: red;
+    height: 430px;
+    margin-top: 50px;
+
+}
+
+/*End footer section*/
